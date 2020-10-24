@@ -16,12 +16,9 @@
   /*---------------------
     preloader
     --------------------- */
-
-
- 
-  $(window).on("load", function () {
+$(window).on("load", function () {
     $("#preloader")
-      .delay(500)
+      .delay(400)
       .fadeOut("slow", function () {
         $(this).remove();
       });
